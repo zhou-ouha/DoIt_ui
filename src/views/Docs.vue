@@ -11,7 +11,7 @@
         <h2>组件</h2>
         <ul>
           <li><router-link to="/Docs/Dinput">input输入框</router-link></li>
-          <li><router-link to="">button按钮</router-link></li>
+          <!-- <li><router-link to="">button按钮</router-link></li> -->
         </ul>
       </aside>
       <main>
@@ -38,7 +38,7 @@ export default {
   flex-direction: row;
   box-shadow: inset 0 20px 20px rgb(241, 241, 241);
   >aside{
-    width: 14vw;
+    width: 12vw;
     height: 92vh;
     padding-top: 2vh;
     border-right: 1px solid rgb(211, 211, 211);
@@ -54,16 +54,25 @@ export default {
         padding-left: 2vw;
         &:hover{
           cursor: pointer;
-          border-bottom: 3px solid tomato;
+          
         }
         >a{
           color: #000;
         }
+        .router-link-active{
+          // background-color: #ff830f;
+          border-bottom: 3px solid tomato;
+        }
       }
   }
   >main{
-    width: 86vw;
+    width: 100%;
     height: 94vh;
+    overflow: auto;
+    // overflow-y: hidden;
+    &::-webkit-scrollbar{
+      display: none;
+    }
   }
 }
 </style>

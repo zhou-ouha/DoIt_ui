@@ -9,6 +9,11 @@ button {
     background: none;
 }
 
+input,
+textarea {
+    outline: none;
+}
+
 ul {
     border: none;
     outline: none;

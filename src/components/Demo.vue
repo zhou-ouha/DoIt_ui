@@ -42,15 +42,14 @@ export default {
 $border-color: #d9d9d9;
 $font-color:#2c405a;
 .demo {
-  border: 1px solid $border-color;
+  border: 1px solid #ff830f;
   margin: 16px 0 32px;
-
   > h2 {
     font-size: 18px;
     color: $font-color;
     font-weight: bold;
     padding: 8px 16px;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid #ff830f;
   }
 
   &-component {
@@ -59,23 +58,20 @@ $font-color:#2c405a;
 
   &-actions {
     font-size: 14px;
-    border-top: 1px dashed $border-color;
+    font-weight: bold;
+    border-top: 1px dashed #ff830f;
     padding: 8px 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     background: #fafbfc;
-    color: #C5D9E8;
-
-    &:hover{
-      color: #6190e8;
-    }
+    color: #ff830f;
   }
 
   &-code {
     padding: 8px 16px;
-    border-top: 1px dashed $border-color;
+    border-top: 1px dashed #ff830f;
 
     > pre {
       line-height: 1.1;
