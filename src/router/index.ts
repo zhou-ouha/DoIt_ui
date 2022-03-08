@@ -3,6 +3,28 @@ const routes: Array<RouteRecordRaw> = [
   {
     path:"/",
     component:()=> import('../views/Home.vue')
+  },
+  {
+    path:'/Docs',
+    component:()=> import('../views/Docs.vue'),
+    children:[
+      {
+        path:'',
+        redirect:'/Docs/introduce'
+      },
+      {
+        path:'introduce',
+        component:()=> import('../components/introduce.vue')
+      },
+      {
+        path:'start',
+        component:()=> import('../components/start.vue')
+      },
+      {
+        path:'Dinput',
+        component:()=> import('../views/doc/input/Dinput.vue')
+      },
+    ]
   }
 ]
 
