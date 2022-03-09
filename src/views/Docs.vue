@@ -11,7 +11,7 @@
         <h2>组件</h2>
         <ul>
           <li><router-link to="/Docs/Dinput">input输入框</router-link></li>
-          <!-- <li><router-link to="">button按钮</router-link></li> -->
+          <li><router-link to="/Docs/Dbutton">button按钮</router-link></li>
         </ul>
       </aside>
       <main>

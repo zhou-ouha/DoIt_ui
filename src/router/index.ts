@@ -24,6 +24,10 @@ const routes: Array<RouteRecordRaw> = [
         path:'Dinput',
         component:()=> import('../views/doc/input/Dinput.vue')
       },
+      {
+        path:'Dbutton',
+        component:()=> import('../views/doc/button/Dbutton.vue')
+      },
     ]
   }
 ]

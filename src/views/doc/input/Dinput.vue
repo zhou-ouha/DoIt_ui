@@ -3,19 +3,19 @@
     <h2>input输入框</h2>
     <hr>
     <h3>单行输入框</h3>
-    <p style="color:#ff830f">基本输入框，可以使用禁用模式</p>
+    <p>基本输入框，可以使用禁用模式</p>
     <Demo :component="inputDemo1"/>
     <h3>可清空内容的输入框</h3>
-    <p style="color:#ff830f">可清空内容</p>
+    <p>可清空内容</p>
     <Demo :component="inputDemo2"/>
     <h3>多行文本输入框</h3>
-    <p style="color:#ff830f">可以输入多行文本的输入框</p>
+    <p>可以输入多行文本的输入框</p>
     <Demo :component="inputDemo3"/>
     <h3>可控大小的输入框</h3>
-    <p style="color:#ff830f">通过设置size可以改变输入框的大小</p>
+    <p>通过设置size可以改变输入框的大小</p>
     <Demo :component="inputDemo4"/>
     <h3>含输入状态的输入框</h3>
-    <p style="color:#ff830f">可以通过status设置输入框输入内容的状态</p>
+    <p>可以通过status设置输入框输入内容的状态</p>
     <Demo :component="inputDemo5"/>
     <div class="input-attribute">
       <h2>Input 参数</h2>
@@ -103,6 +103,9 @@ import Demo from "../../../components/Demo.vue"
   }
   h3{
     margin: 2vh 0;
+  }
+  p{
+    color:#ff830f;
   }
   .attribute-table{
     background-color: black;

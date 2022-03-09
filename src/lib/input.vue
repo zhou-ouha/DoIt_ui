@@ -75,9 +75,9 @@ export default {
     font-size: 8px;
   }
   &-success{
-    border-color: #48ff00;
+    border-color: #67C23A;
     &:focus{
-      border-color: #48ff00;
+      border-color: #67C23A;
     }
   }
   &-warning{
