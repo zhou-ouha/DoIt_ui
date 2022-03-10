@@ -4,7 +4,6 @@ import { baseParse } from "@vue/compiler-core"
 const vitePluginVue = {
   name:"preview",
   transform(code : any, id : any) {
-    console.log(id+"@@@@@");
     
     if(!/\/src\/views\/doc\/.*\.preview\.vue/.test(id) ||
     !/vue&type=preview/.test(id)){

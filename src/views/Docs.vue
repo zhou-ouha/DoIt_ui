@@ -12,6 +12,7 @@
         <ul>
           <li><router-link to="/Docs/Dinput">input输入框</router-link></li>
           <li><router-link to="/Docs/Dbutton">button按钮</router-link></li>
+          <li><router-link to="/Docs/Ddialog">dialog弹窗</router-link></li>
         </ul>
       </aside>
       <main>

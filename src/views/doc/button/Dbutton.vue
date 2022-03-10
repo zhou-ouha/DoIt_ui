@@ -9,12 +9,12 @@
     <p>可以通过设置status改变按钮的颜色</p>
     <Demo :component="button2"/>
     <h3>禁用按钮</h3>
-    <p>可以通过设置disabled改变按钮的颜色</p>
+    <p>可以设置disabled使按钮禁用</p>
     <div class="disabled">
        <Demo :component="button3"/>
     </div>
     <h3>基础按钮</h3>
-    <p>可以通过设置status改变按钮的颜色</p>
+    <p>可以通过设置size改变按钮的大小</p>
     <Demo :component="button4"/>
     <h3>加载按钮</h3>
     <p>loading属性可以让按钮处于加载中状态</p>
